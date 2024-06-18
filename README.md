@@ -27,7 +27,6 @@ Python-based remote PC access and file management tool for Windows. Download fil
 - **Remotely monitor your PC's system information**
 - **Built with Python for a smooth and reliable experience**
 
-## Installation
 
 # Installation
 
