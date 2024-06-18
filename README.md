@@ -1,6 +1,6 @@
 # goblin
 
-<img src="goblin.jpg" alt="Image Alt Text" width="550" height="350">
+<img src="goblin.jpg" alt="Image Alt Text" width="100%" height="550">
 
 
 
