@@ -1,59 +1,80 @@
-# goblin
+# Goblin
 
 <img src="goblin.jpg" alt="Image Alt Text" width="100%" height="550">
 
-
-
-
-Goblin application: Get remote access from a Telegram bot.
+Summon the Goblin: Windows PC, at your fingertips, from anywhere in the world, through the power of Telegram.
 
 ## Table of Contents
 
 - [Description](#description)
 - [Features](#features)
 - [Installation](#installation)
-
-
+- [New_Version](#New_Version)
+- [usage](#usage)
+- [Important_Notes](#Important_Notes)
 
 ## Description
 
-Python-based remote PC access and file management tool for Windows. Download files, monitor system info, and easily navigate drives/folders.
+This mischievous entity empowers you with remote access and file manipulation capabilities. Bypass conventional security measures, navigate the intricate network pathways, and maintain covert surveillance, all through the secure channels of Telegram.
 
+Unleash the Goblin and experience unparalleled control over your Windows machine from anywhere in the world.
 ## Features
 
-- **Effortlessly access your Windows PC from anywhere**
-- **Securely download any file type:** ZIP, RAR, movies, PDFs, and more
-- **Easily navigate through your folders and drives**
-- **Remotely monitor your PC's system information**
-- **Built with Python for a smooth and reliable experience**
+- **Effortless Remote Access**: Control your Windows PC from anywhere with a Telegram bot.
+- **Versatile File Management**:
+    - Download any file type: ZIP, RAR, images, movies, documents, and more
+    - Rename, delete, and organize your files remotely
+- **System Monitoring**: Get real-time insights into your PC's system information
+- **Secure and Convenient**: Leverages Telegram's security and ease of use
+- **Built with Python**: Smooth and reliable performance
 
+## Installation
 
-# Installation
+1. **Telegram Bot Setup:**
+    - Create a Telegram bot using [BotFather](https://telegram.me/BotFather) and get your bot token.
+    - In the `goblin.py` file, replace `<your_bot_token>` with your actual bot token.
+2. **Install Libraries:**
+    - Make sure you have Python installed on your system
+    - Install the required Python libraries:
 
-1. **Telegram Bot:**
+```
+pip install -r requirements.txt
+```
 
-   - Create a Telegram bot using [BotFather](https://telegram.me/BotFather) and obtain your bot token.
-   - Replace `<your_bot_token>` in the code with your actual bot token. 
+3. **Run Goblin:**
+    - Execute the `goblin.py` script:
 
-2. **Libraries:**
+```
+python goblin.py
+```
 
-   - Install the required Python libraries:
+**Or Make it  Excutable:**
+    - Execute the `pyinstaller` script:
+```
+pyinstaller --onefile goblin.py
+```
+  
 
-     ```bash
-     pip install -r requirements.txt
-     ```
+## New_Version
 
-3. **Optional (Executable):**
+- **Enhanced File Operations**:
+    - Now supports renaming, deleting, and compressing files into ZIP or RAR archives
+    - **New: Upload files** directly to your PC from Telegram
+- **Improved User Experience**: Streamlined start menu and clearer command options
+- **Telegram Bot Enhancements**: Added convenient buttons for common actions
+- **Powerful Dump Command**: Easily download all files of a specific extension or starting with a certain letter
+- **Bug Fixes and Optimizations**: Squashed those pesky bugs and improved overall performance
+- **Website Launch and Tray Icon**: The application now launches a website and minimizes to the tray icon
+  
 
-   - _(Optional)_ Create an executable file for easier distribution using tools like:
+## Usage
 
-     * **PyInstaller:**
-       ```bash
-       pyinstaller --onefile <your_script_name>.py 
-       ```
-     * **py2exe:** (requires a `setup.py` script)
-       ```bash
-       python setup.py py2exe 
-       ``` 
+1. **Start the Goblin script** on your Windows PC
+2. **Open Telegram** and search for your bot
+3. **Send `/start`** to initiate the bot
+4. **Follow the on-screen instructions** to navigate and manage your PC
 
+## Important_Notes
 
+- Ensure your Windows PC is turned on and connected to the internet
+- Goblin is designed for personal use and educational purposes. Please use it responsibly

@@ -1,4 +1,5 @@
-pip install logging
-pip install psutil
-pip install telebot
-pip install rarfile
+telebot
+psutil
+pystray
+PIL
+requests
