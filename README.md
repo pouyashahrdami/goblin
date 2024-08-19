@@ -55,7 +55,7 @@ pyinstaller --onefile goblin.py
 ```
 **Installation Redocrding:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AvzPwMirHag?si=6T8hlOcKyDDg6Mb9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![YouTube](http://i.ytimg.com/vi/AvzPwMirHag/hqdefault.jpg)](https://www.youtube.com/watch?v=AvzPwMirHag)
 
 ## New_Version
 
